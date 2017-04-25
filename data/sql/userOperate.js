@@ -23,6 +23,10 @@ var userOperate = {
 						msg: '操作失败'
 					})
 				}
+/*When you are done with a connection, just call connection.release() and the connection will return to the pool, ready to be used again by someone else.
+*https://www.npmjs.com/package/mysql#closing-all-the-connections-in-a-pool
+*/
+				connection.release();
 			})
 		})
 	},
@@ -43,6 +47,7 @@ var userOperate = {
 						msg: '操作失败'
 					})
 				}
+				connection.release();
 			})
 		})
 	},
@@ -63,6 +68,7 @@ var userOperate = {
 						msg: '操作失败'
 					})
 				}
+				connection.release();
 			})
 		})
 	},
@@ -80,6 +86,7 @@ var userOperate = {
 						msg: '操作失败'
 					})
 				}
+				connection.release();
 			})
 		})
 	}
