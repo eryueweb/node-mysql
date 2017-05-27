@@ -13,7 +13,7 @@
 * #### 分页查询
    `SELECT * FROM [tableName] LIMIT [page*pageSize],[pageSize]`
 2. ### 更新
-* #### 条件多字段更新
+* #### 多字段更新
    `UPDATE [tableName] SET [field]=[value],[field]=[value] WHERE [field]=[value]`
 * #### 默认值更新
    `ALTER TABLE [tableName] ALTER COLUMN [field] SET DEFAULT [value]`   
