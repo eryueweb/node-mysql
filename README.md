@@ -21,6 +21,6 @@
 * #### 数据
    `INSERT INTO [tableName] (field1,field2) VALUES (value1,value2)`
 * #### 字段
-   例：`ALTER TABLE table_article author VARCHAR(10) DEFAULT 'xiaoming'`   
+   例：`ALTER TABLE table_article author VARCHAR(10) DEFAULT 'xiaoming'`
 4. ### 删除
-   `DELETE FROM [tableName] WHERE [field]=[value]`
+   `DELETE FROM [tableName] WHERE [field]=[value]`
