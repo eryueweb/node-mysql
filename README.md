@@ -17,7 +17,7 @@
 * #### 默认值更新
    `ALTER TABLE [tableName] ALTER COLUMN [field] SET DEFAULT [value]`   
    例：`ALTER TABLE table_article ALTER COLUMN creatTime SET DEFAULT 'CURRENT_TIMESTAMP'`  
-* #### RePLACE更新
+* #### REPLACE更新
    `UPDATE comic_pic SET picUrl=REPLACE(picUrl,'http://localhost:3000','')`  
 3. ### 新增
 * #### 数据
