@@ -16,7 +16,9 @@
    `UPDATE [tableName] SET [field]=[value],[field]=[value] WHERE [field]=[value]`
 * #### 默认值更新
    `ALTER TABLE [tableName] ALTER COLUMN [field] SET DEFAULT [value]`   
-   例：`ALTER TABLE table_article ALTER COLUMN creatTime SET DEFAULT 'CURRENT_TIMESTAMP'`
+   例：`ALTER TABLE table_article ALTER COLUMN creatTime SET DEFAULT 'CURRENT_TIMESTAMP'`  
+* #### RePLACE更新
+   `UPDATE comic_pic SET picUrl=REPLACE(picUrl,'http://localhost:3000','')`  
 3. ### 新增
 * #### 数据
    `INSERT INTO [tableName] (field1,field2) VALUES (value1,value2)`
